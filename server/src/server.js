@@ -1,7 +1,7 @@
 const app = require("./app");
+const { serverPort } = require("./secret");
 
 
-
-app.listen(7000, () => {
-   console.log(`server is running at http://localhost:7000`);
-})
+app.listen(serverPort, () => {
+   console.log(`server is running at http://localhost:${serverPort}`);
+}) 
