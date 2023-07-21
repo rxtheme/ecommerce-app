@@ -9,6 +9,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const isLoggedIn = (req, res, next) => {
+
    const login = true;
 
    if (login) {
